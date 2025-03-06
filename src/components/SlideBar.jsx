@@ -6,7 +6,7 @@ const SlideBar = ({ setShowSlidebar }) => {
         <div className='z-50  fixed top-0 left-0 p-4 border border-white/70 bg-gray-950 min-[320px]:w-11/12 md:w-1/4 overflow-y-auto overflow-x-hidden h-full'>
             <div className='w-full flex justify-end'>
                 <button className='outline-none border-none bg-transparent cursor-pointer' onClick={() => setShowSlidebar(false)}>
-                    <img src="./src/assets/cross.png" alt="cross-icon" className='opacity-60 min-[320px]:w-5 md:w-7' />
+                    <img src="./public/cross.png" alt="cross-icon" className='opacity-60 min-[320px]:w-5 md:w-7' />
                 </button>
             </div>
 
