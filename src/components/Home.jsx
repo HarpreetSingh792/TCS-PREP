@@ -5,9 +5,9 @@ const Home = () => {
         <div className='p-4 flex flex-col items-start gap-4 text-justify'>
             <h2 className='text-4xl font-semibold'>Introduction</h2>
             <p>Welcome! To our <b>TCS NQT Prep Concept</b>, here you can find all the required syllabus for your preparation</p>
-            <p>In TCS NQT there is total 3 position hiring: <li>Ninja - Assitant System Engineer</li> <li>Digital - System Engineer</li><li>Prime - Software Development Engineer</li></p>
+            <p>In TCS NQT there is total 3 position hiring: <li>Ninja - Asssitant System Engineer</li> <li>Digital - System Engineer</li><li>Prime - Software Development Engineer</li></p>
             <p><b>Package Offer by TCS NQT :</b> <li>Ninja: 3.3 -3.6 LPA</li> <li>Digital: 7 - 7.3 LPA</li><li>Prime: 9 - 11.5 LPA</li></p>
-            <p className='bg-zinc-900 p-2 text-sm border-2 border-white/40 w-full'>There will be average cut off, so attempt in half ration first each section</p>
+            <p className='bg-zinc-900 p-2 text-sm border-2 border-white/40 w-full'>There will be an average cut off, so attempt in half ration first each section</p>
             <p className='bg-zinc-900 p-2 text-sm border-2 border-white/40 w-full'>Speed ratio for solving question is 1 min/ ques </p>
             <p className='bg-zinc-900 p-2 text-sm border-2 border-white/40 w-full'>Number of total Topics: 57</p>
             <p className='bg-zinc-900 p-2 text-sm border-2 border-white/40 w-full'>Number of total Important Topics: 31</p>
