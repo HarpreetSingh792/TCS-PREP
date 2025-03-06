@@ -7,7 +7,7 @@ import {
 const ProgressChart = ({ data }) => {
   // Calculate Completion Stats
   const completedCount = useMemo(() => data?.topics.filter((d) => d.isCompleted)?.length, [data]);
-  const totalTopics = data.totalTopics;
+  const totalTopics = data?.topics?.length;
   const completionRate = totalTopics > 0 ? ((completedCount / totalTopics) * 100).toFixed(2) : 0;
 
   // Data for Completion Chart
