@@ -10,7 +10,7 @@ const Navbar = () => {
             {
                 showSlidebar && <SlideBar setShowSlidebar={setShowSlidebar} />}
             <button className='outline-none border-none bg-transparent cursor-pointer' onClick={()=>setShowSlidebar(true)}>
-                <img src="./public/slidebar-left.png" alt="slidebar-icon" width={30} className='opacity-60 min-[320px]:w-5 md:w-7' />
+                <img src="/slidebar-left.png" alt="slidebar-icon" width={30} className='opacity-60 min-[320px]:w-5 md:w-7' />
             </button>
             <div className='flex w-full min-[320px]:justify-between md:justify-evenly items-center p-4 bg-gray-950/80 text-white/70'>
 
